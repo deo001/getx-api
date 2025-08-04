@@ -6,6 +6,7 @@ class ProductController extends GetxController{
   var isLoading = true.obs;
   var productList = <Product>[].obs;
 
+
   @override
   void onInit() {
     // TODO: implement onInit
